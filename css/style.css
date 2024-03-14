@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header{
+    background-color: brown;
+}
+.nav-link{
+    font-weight: bold;
+}main{
+    margin:0 2px 0 2px ;
+}
+.card{
+    width: 100%;
+}
+
+ 
+.card{
+    box-shadow: 4px 4px 8px 1px;
+}
+
+#habilidades li{
+
+    margin: 0 10px 0 10px;
+    padding: 5px;
+    list-style: habilidades;
+}
+#resumo{
+    height: auto;
+    
+}
+#resumo h2{
+    margin: 15px;
+    border-bottom: 1px solid black;
+}
+/* Imagem */
+#perfil{
+    width:75%;
+    border-radius: 15%;
+    margin: 5px;
+    align-content: center;
+}
+#perfil2{
+    flex-direction: column;
+    align-items: center;
+}
+/* Card_tile */
+.card-title{
+    border-bottom: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+}
+h2{
+    margin: 10px;
+    padding-bottom: 5px;
+}
+/*Card */
+.card li{
+    list-style: disc;
+    margin: 20px;
+    padding-right: 10px;
+}
+.navbar-brand img{
+    width: 10.2rem;
+    height:100%;
+}
+
+@media (max-width: 720px) {
+    #perfil2{
+        flex-direction: column;
+        align-items: center;
+    }
+    #perfil{
+        border-radius: 100px;
+        width: 150px; 
+        margin: 10px;
+        padding: 25px;
+       
+    }
+    @media (min-width: 716px) {
+        #perfil2{
+            flex-direction: column;
+            
+            align-items: center;
+        }
+        #perfil{
+            border-radius: 100px;
+            min-width: 150px;
+           
+        }
+        #resumo h2{
+             margin: 10px;
+        }
+
+    /*   #perfil2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    } 
+    #perfil{
+        width: 120px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 50px;
+    }
+     */
+  }
